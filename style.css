@@ -1,0 +1,422 @@
+body{
+    background-image: url("images/calculator.jpg");
+    background-size: 50%;
+}
+.display{
+    height: 200px;
+    width: 200px;
+}
+.box{
+    background-color:black;
+    margin-left: 400px;
+    height:600px;
+    width: 400px;
+}
+.fBox{
+    display:flex;
+    gap:5px;
+    padding:5px;
+}
+.sBox{
+    display: flex;
+    gap:5px;
+    padding:5px;
+}
+.tBox{
+    display: flex;
+    gap:5px;
+    padding:5px;
+}
+.foBox{
+    display: flex;
+    gap:5px;
+    padding:5px;
+}
+.fiBox{
+    display: flex;
+    gap:5px;
+    padding:5px;
+}
+.clear{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:21px;
+}
+#one:hover{
+    background-color:rgb(65, 66, 67);
+}
+#one{
+    display: flex;
+    flex:1;
+    background-color:gray;
+    height: 70px;
+    border-radius: 50%;
+}
+.plusOrMinus{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 26px;
+    padding:20px;
+    margin-left: 8px;
+}
+.modules{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 26px;
+    padding:20px;
+    margin-left: 13px;
+}
+.devide{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color:rgb(15, 11, 11);
+    font-size: 30px;
+    padding:20px;
+    margin-left: 20px;
+}
+.nseven{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 16px;
+}
+.neight{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.nnine{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.multiply{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 26px;
+    padding:20px;
+    margin-left: 18px;
+}
+.nfour{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.nfive{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.nsix{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.subtract{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    margin-left: 35px;
+}
+.none{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.ntwo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.nthree{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.additon{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.nzero{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+.dot{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 20px;
+}
+.equalTo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+    padding:20px;
+    margin-left: 17px;
+}
+#two{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    border-radius: 50%;
+}
+#two:hover{
+    background-color:rgb(65, 66, 67);
+}
+#three{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    border-radius: 50%;
+}
+#three:hover{
+    background-color:rgb(65, 66, 67);
+}
+#four{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#four:hover{
+    background-color:rgb(65, 66, 67);
+}
+#five{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#five:hover{
+    background-color:rgb(65, 66, 67);
+}
+#six{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#six:hover{
+    background-color:rgb(65, 66, 67);
+}
+#seven{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#seven:hover{
+    background-color:rgb(65, 66, 67);
+}
+#eight{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#eight:hover{
+    background-color:rgb(65, 66, 67);
+}
+#nine{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#nine:hover{
+    background-color:rgb(65, 66, 67);
+}
+#ten{
+    display: flex;
+    flex:1;
+    background-color:gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#ten:hover{
+    background-color:rgb(65, 66, 67);
+}
+#eleven{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#eleven:hover{
+    background-color:rgb(65, 66, 67);
+}
+#twelve{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#twevle:hover{
+    background-color:rgb(65, 66, 67);
+}
+#thirteen{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#thirteen:hover{
+    background-color:rgb(65, 66, 67);
+}
+#forteen{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#forteen:hover{
+    background-color:rgb(65, 66, 67);
+}
+#fifteen{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#fifteen:hover{
+    background-color:rgb(65, 66, 67);
+}
+#sixteen{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#sixteen:hover{
+    background-color:rgb(65, 66, 67);
+}
+#dev{
+    display: flex;
+    flex:1;
+    background-color: orange;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#dev:hover{
+    background-color:rgb(225, 214, 214);
+}
+#sub{
+    display: flex;
+    flex:1;
+    background-color: orange;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#sub:hover{
+    background-color:rgb(225, 214, 214);
+}
+#mul{
+    display: flex;
+    flex:1;
+    background-color: orange;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#mul:hover{
+    background-color:rgb(225, 214, 214);
+}
+#add{
+    display: flex;
+    flex:1;
+    background-color: orange;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#add:hover{
+    background-color:rgb(225, 214, 214);
+}
+#sixteen{
+    display: flex;
+    flex:2;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 40%;
+}
+#sixteen:hover{
+    background-color:rgb(65, 66, 67);
+}
+
+#seventeen{
+    display: flex;
+    flex:1;
+    background-color: gray;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#seventeen:hover{
+    background-color:rgb(65, 66, 67);
+}
+#equals{
+    display: flex;
+    flex:1;
+    background-color:orange;
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+}
+#equals:hover{
+    background-color:rgb(225, 214, 214);
+}
