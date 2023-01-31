@@ -2,79 +2,49 @@
 <html lang="en">
     <head>
         <title>Calculator</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     </head>
     <body>
+        <div class="header">
+            <h1 class="header1">Calculator</h1>
+            <h1 class="header2">Boy</h1>
+        </div>
         <div class="box">
-            <div class="display"></div>
-            <div class="fBox">
-                <div id="one">
-                    <div class="clear">AC</div>
-                </div>
-                <div id="two">
-                    <div class="plusOrMinus">+/-</div>
-                </div>
-                <div id="three">
-                    <div class="modules">%</div>
-                </div>
-                <div id="dev">
-                    <div class="devide">/</div>
-                </div>
+            <div class="display">
+                <input type="text" id="result">
             </div>
-            <div class="sBox">
-                <div id="five">
-                    <div class="nseven">7</div>
+            <div>
+                <div id="first">
+                    <input class="btn btn-danger" type="button" value="AC" id="clear" onclick="document.getElementById('result').value = ''">
+                    <input class="btn btn-info" type="button" value="+/-" id="plusOrMinus" onclick="document.getElementById('result').value += '-'">
+                    <input class="btn btn-warning" type="button" value="%" id="modulus" onclick="document.getElementById('result').value += '%'">
+                    <input class="btn btn-warning" type="button" value="/" id="divid" onclick="document.getElementById('result').value += '/'">
                 </div>
-                <div id="six">
-                    <div class="neight">8</div>
+                <div id="second">
+                    <input class="btn btn-primary" type="button" value="7" id="n7" onclick="document.getElementById('result').value += '7'">
+                    <input class="btn btn-primary" type="button" value="8" id="n8" onclick="document.getElementById('result').value += '8'">
+                    <input class="btn btn-primary" type="button" value="9" id="n9" onclick="document.getElementById('result').value += '9'">
+                    <input class="btn btn-warning" type="button" value="x" id="multiply" onclick="document.getElementById('result').value += '*'">
                 </div>
-                <div id="seven">
-                    <div class="nnine">9</div>
+                <div id="third">
+                <input class="btn btn-primary" type="button" value="4" id="n4" onclick="document.getElementById('result').value += '4'">
+                <input class="btn btn-primary" type="button" value="5" id="n5" onclick="document.getElementById('result').value += '5'">
+                <input class="btn btn-primary" type="button" value="6" id="n6" onclick="document.getElementById('result').value += '6'">
+                <input class="btn btn-warning" type="button" value="-" id="subtract" onclick="document.getElementById('result').value += '-'">
                 </div>
-                <div id="mul">
-                    <div class="multiply">x</div>
+                <div id="fourth">
+                    <input class="btn btn-primary" type="button" value="1" id="n1" onclick="document.getElementById('result').value += '1'">
+                    <input class="btn btn-primary" type="button" value="2" id="n2" onclick="document.getElementById('result').value += '2'">
+                    <input class="btn btn-primary" type="button" value="3" id="n3" onclick="document.getElementById('result').value += '3'">
+                    <input class="btn btn-warning" type="button" value="+" id="additon"onclick="document.getElementById('result').value += '+'">
                 </div>
-            </div>
-            <div class="tBox">
-                <div id="nine">
-                    <div class="nfour">4</div>
-                </div>
-                <div id="ten">
-                    <div class="nfive">5</div>
-                </div>
-                <div id="eleven">
-                    <div class="nsix">6</div>
-                </div>
-                <div id="sub" >
-                    <div class="subtract">-</div>
-                </div>
-            </div>
-            <div class="foBox">
-                <div id="thirteen">
-                    <div class="none">1</div>
-                </div>
-                <div id="forteen">
-                    <div class="ntwo">2</div>
-                </div>
-                <div id="fifteen">
-                    <div class="nthree">3</div>
-                </div>
-                <div id="add">
-                    <div class="additon">+</div>
-                </div>
-            </div>
-            <div class="fiBox">
-                <div id="sixteen">
-                    <div class="nzero">0</div>
-                </div>
-                <div id="seventeen">
-                    <div class="dot">.</div>
-                </div>
-                <div id="equals">
-                    <div class="equalTo">=</div>
+                <div id="fifth">
+                    <input class="btn btn-primary" type="button" value="0" id="n0" onclick="document.getElementById('result').value += '0'">
+                    <input class="btn btn-info" type="button" value="." id="dot" onclick="document.getElementById('result').value += '.'">
+                    <input class="btn btn-success" type="button" value="=" id="equals" onclick="document.getElementById('result').value = eval(document.getElementById('result').value)">
                 </div>
             </div>
         </div>
-        <script src="main.js"></script>
     </body>
 </html>
